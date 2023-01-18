@@ -1,0 +1,52 @@
+TCP/P stands for Transmission Control Protocol/Internet Protocol and is a suite of communication protocols used to interconnect network devices on the internet.
+ TCP/IP is also used as a communications protocol in a private computer network (an intranet or extranet).
+The entire IP suite - a set of rules and procedures - is commonly referred to as TCP/IP.
+TCP and IP are the two main protocols, though others are included in the suite. The TCP/IP protocol suite functions as an abstraction layer between internet applications and the routing and switching fabric.
+
+
+
+TCP/IP specifies how data is exchanged over the internet by providing end-to-end communications that identify how it should be broken into packets, addressed, transmitted, routed and received at the destination.
+ TCP/IP requires little central management and is designed to make networks reliable with the ability to recover automatically from the failure of any device on the network.
+The two main protocols in the IP suite serve specific functions. TCP defines how applications can create channels of communication across a network. 
+It also manages how a message is assembled into smaller packets before they are then transmitted over the internet and reassembled in the right order at the destination address.
+IP defines how to address and route each packet to make sure it reaches the right destination.
+ Each gateway computer on the network checks this IP address to determine where to forward the message.
+
+
+
+
+
+How does TCP/P work?
+TCP/IP uses the client-server model of communication in which a user or machine (a client is provided a service, like sending a webpage, by another computer (a server) in the network.
+Collectively, the TCP/IP suite of protocols is classified as stateless, which means each client request is considered new because it is unrelated to previous requests. Being stateless free up network paths so they can be used continuously.
+The transport layer itself, however, is stateful. It transmits a single message, and its connection remains in place until all the backets in a message have been received and
+reassembled at the destination.
+The TCP/IP model differs slightly from the seven-layer Open Systems Interconnection (OSI) networking model designed after it. The OSI reference model defines how applications can communicate over a network.
+
+
+The 4 layers of the TCP/IP model
+TCP/IP functionality is divided into four layers, each of which includes specific protocols:
+	1.	   The application layer provides applications with standardized data exchange. Its protocols include HTTP, FTP, Post Office Protocol 3, Simple Mail Transfer Protocol and Simple Network Management Protocol. At the application layer, the payload is the actual application data.
+	2.	   The transport layer is responsible for maintaining end-to-end communications across the network. TCP handles communications between hosts and provides flow control, multiplexing and reliability. The transport protocols include TCP and User Datagram Protocol, which is sometimes used instead of TCP for special purposes.
+      3.	   The network layer, also called the internet layer, deals with packets and connects independent networks to transport the packets across network boundaries. The network layer protocols are IP and Internet Control Message Protocol, which is used for error reporting.
+	4.	   The physical layer, also known as the network interface layer or data link layer, consists of protocols that operate only on a link - the network component that interconnects nodes or hosts in the network. The protocols in this lowest layer include Ethernet for local area
+
+
+
+
+Pros and cons of TCP/IP
+The advantages of using the TCP/IP model include the following:
+	•	  helps establish a connection between different types of computers;
+	•	  works independently of the OS;
+	•	  supports many routing protocols;
+. uses client-selver architecture that is highly scalable;
+	•	  can be operated independently;
+	•	  supports several routing protocols; and
+	•	  is lightweight and doesn't place unnecessary strain on a network or computer.
+The disadvantages of TCP/IP include the following:
+	•	  is complicated to set up and manage;
+	•	  transport layer does not guarantee delivery of packets;
+	•	  is not easy to replace protocols in TCP/IP;
+. does not clearly separate the concepts of services, interfaces and protocols, so it is not
+suitable for describing new technologies in new networks; and
+• is especially vulnerable to a synchronization attack, which is a type of denial-of-service attack in which a bad actor uses TCP/IP.
